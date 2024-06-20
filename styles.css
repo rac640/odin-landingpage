@@ -26,13 +26,17 @@ body{
 
 .header, .footer{
     display: flex;
-    padding: 10px;
+    padding: 20px;
+    /* Header + Footer: Updated background color */
+    background-color: #1f2937;
  
 }
 
-/* putting space between the header and the links */
 .header{
+    /* putting space between the Logo and the links */
+
     justify-content: space-between;
+
 }
 
 
