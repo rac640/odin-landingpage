@@ -29,13 +29,18 @@ body{
     padding: 20px;
     /* Header + Footer: Updated background color */
     background-color: #1f2937;
+    
  
 }
 
 .header{
-    /* putting space between the Logo and the links */
-
+    /* putting space between the Header logo and the links */
     justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-logo{
+    font-weight: bolder;
 
 }
 
