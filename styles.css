@@ -44,6 +44,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
 }
 
 /* making content boxes similar size */
@@ -54,6 +55,13 @@ body{
 .content-1{
     display: flex;
     justify-content: center;
+
+}
+
+.img{
+    /* made width of image bigger */
+    width: 500px;
+    background-color: grey;
 }
 
 
