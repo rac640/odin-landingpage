@@ -13,22 +13,6 @@ body{
     margin: 0; 
 }
 
-.content-container{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-/* making content boxes similar size */
-.content-1, .content-2, .content-3, .content-4{
-    flex: 1;
-}
-
-.content-1{
-    display: flex;
-    justify-content: center;
-}
-
 .header, .footer{
     display: flex;
     padding: 20px;
@@ -52,6 +36,24 @@ body{
 .header-links{
     display: flex;
     gap: 10px;
+}
+
+
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* making content boxes similar size */
+.content-1, .content-2, .content-3, .content-4{
+    flex: 1;
+}
+
+.content-1{
+    display: flex;
+    justify-content: center;
 }
 
 
