@@ -53,6 +53,7 @@ body{
     flex: 1;
 }
 
+/* content-1 start */
 
 .awesome-content{
     color: white;
@@ -70,6 +71,36 @@ body{
 .content-button{
     margin-top: 10px;
 }
+
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    /* Apparently, this is how you round the button borders */
+    border-radius: 4px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+}
+
+
+.img{
+    /* made width of image bigger */
+    width: 500px;
+    background-color: #6E737D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* content-1 end */
+
+
+
+
+
 
 /* content-2 start */
 .content-2{
@@ -105,33 +136,41 @@ align-items: center;
 /* content-2 end */
 
 
-button{
-    background-color: #3882F6;
-    color: white;
-    padding: 10px;
-    /* Apparently, this is how you round the button borders */
-    border-radius: 4px;
-    width: 100px;
-    font-weight: bold;
-    border: none;
-}
 
 
-.img{
-    /* made width of image bigger */
-    width: 500px;
-    background-color: #6E737D;
+/* content-3 start */
+
+.content-3{
+    background-color: #E5E7EA;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
+
+.quote{
+    display: flex;
+
+    flex-direction: column;
+    width: 650px;
+    height: 100%;
+    font-size: 35px;
+}
+
+.attribute{
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+/* content-3 end */
+
 
 
 /* This is just to help me visually */
-
+/* 
 div{
     border: 5px solid blue;
-}
+} */
 
 
