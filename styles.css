@@ -7,6 +7,7 @@
 body{
     /* Learned about viewport height, and took from 06-flex-layout exercise */
     height: 100vh;  
+
     display: flex;
     flex-direction: column;
     margin: 0; 
@@ -25,7 +26,13 @@ body{
 
 .header, .footer{
     display: flex;
+    padding: 10px;
  
+}
+
+/* putting space between the header and the links */
+.header{
+    justify-content: space-between;
 }
 
 
