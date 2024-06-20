@@ -1,14 +1,36 @@
 *{
     margin: 0;
+    /* I almost forgot to add border-box, so that margin + padding are included; so boxes are actual width + height */
+    box-sizing: border-box;
 }
 
 body{
+    /* Learned about viewport height, and took from 06-flex-layout exercise */
+    height: 100vh;  
     display: flex;
     flex-direction: column;
+    margin: 0; 
 }
 
-div{
+.content-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
+/* making content boxes similar size */
+.content-1, .content-2, .content-3, .content-4{
+    flex: 1;
+}
+
+.header, .footer{
+    display: flex;
+ 
+}
+
+
+/* This is just to help me visually */
+div{
     border: 5px solid blue;
 }
 
