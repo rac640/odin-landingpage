@@ -11,6 +11,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header, .footer{
@@ -26,7 +28,6 @@ body{
     /* putting space between the Header logo and the links */
     justify-content: space-between;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .header-logo{
     font-weight: bolder;
@@ -52,20 +53,49 @@ body{
     flex: 1;
 }
 
+
+.awesome-content{
+    color: white;
+    width: 350px;
+
+}
 .content-1{
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
+    padding: 100px;
 
 }
+
+.content-button{
+    margin-top: 10px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    /* Apparently, this is how you round the button borders */
+    border-radius: 4px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+}
+
 
 .img{
     /* made width of image bigger */
     width: 500px;
-    background-color: grey;
+    background-color: #6E737D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
 /* This is just to help me visually */
+
 div{
     border: 5px solid blue;
 }
