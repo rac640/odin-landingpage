@@ -179,7 +179,21 @@ align-items: center;
 .c-to-a{
     display: flex;
     width: 700px;
-    height: 300px;
+    height: 150px;
+    margin: 100px;
+    padding: 50px;
+    color: white;
+    background-color: #3B82F6;
+    justify-content: space-between;
+    border-radius: 7px;
+
+}
+
+.c-to-a-btn{
+    border: 2px solid white;
+    display: flex;
+    border-radius: 7px;
+
 }
 
 /* content-4 end */
@@ -190,8 +204,8 @@ align-items: center;
 
 /* This is just to help me visually */
 
-div{
+/* div{
     border: 5px solid blue;
-}
+} */
 
 
