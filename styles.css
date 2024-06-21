@@ -7,7 +7,6 @@
 body{
     /* Learned about viewport height, and took from 06-flex-layout exercise */
     height: 100vh;  
-
     display: flex;
     flex-direction: column;
     margin: 0; 
@@ -61,12 +60,18 @@ body{
     width: 350px;
 
 }
+
+.awesome-text{
+    margin-top: 10px;
+    margin-bottom: 10x;
+}
+
 .content-1{
     display: flex;
     justify-content: center;
     background-color: #1f2937;
     padding: 100px;
-
+    gap: 30px;
 }
 
 .content-button{
