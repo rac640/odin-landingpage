@@ -24,6 +24,7 @@ body{
  
 }
 
+
 .header{
     /* putting space between the Header logo and the links */
     justify-content: space-between;
@@ -167,10 +168,30 @@ align-items: center;
 
 
 
+
+/* content-4 start */
+
+.content-4{
+    display: flex;
+    justify-content: center;
+}
+
+.c-to-a{
+    display: flex;
+    width: 700px;
+    height: 300px;
+}
+
+/* content-4 end */
+
+
+
+
+
 /* This is just to help me visually */
-/* 
+
 div{
     border: 5px solid blue;
-} */
+}
 
 
